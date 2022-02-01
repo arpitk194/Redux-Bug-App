@@ -1,0 +1,8 @@
+3 parts of Redux
+
+i) Action - Object which tells what changed in store
+ii) Reducer - Pure function that updates the store (Immutable)
+ii) Store - Single source of truth object which holds the data
+
+On an event which should update Store, we Dispatch Action object to store which inturn calls
+Reducer to update the respective slice. (action -> store -> reducer)
